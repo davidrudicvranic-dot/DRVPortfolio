@@ -242,8 +242,9 @@ footer {
 /* ---------- Vollflächige Startseite ---------- */
 .hero-full {
   position: relative;
-  width: auto;
-  height: auto; /* volle Bildschirmhöhe */
+  width: 100%;
+  height: calc(100vh - 80px); 
+  margin-top: 80px; 
   background-image: url(img/portfolio\ web.png);
   background-size: cover;
   background-position: center;
@@ -358,6 +359,7 @@ footer {
     gap: 1rem;
   }
 }
+
 
 
 
