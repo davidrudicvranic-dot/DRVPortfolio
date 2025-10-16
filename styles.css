@@ -244,7 +244,7 @@ footer {
   position: relative;
   width: auto;
   height: auto; /* volle Bildschirmhöhe */
-  background-image: url(img/portfolio.png);
+  background-image: url(img/portfolio web.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -358,6 +358,7 @@ footer {
     gap: 1rem;
   }
 }
+
 
 
 
