@@ -14,15 +14,6 @@ body {
   animation: fadeIn 0.8s ease-in-out;
 }
 
-/* Animationen */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.fade-in {
-  animation: fadeIn 0.8s ease-in-out;
-}
 
 /* Navigation */
 .navbar {
@@ -286,12 +277,6 @@ footer {
   color: #ccc;
 }
 
-/* schöne Einblend-Animation */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
   to {
     opacity: 1;
     transform: translateY(0);
@@ -359,6 +344,7 @@ footer {
     gap: 1rem;
   }
 }
+
 
 
 
